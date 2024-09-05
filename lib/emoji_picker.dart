@@ -513,6 +513,7 @@ class _EmojiPickerState extends State<EmojiPicker> {
           recommendedPages.add(Container(
             color: widget.bgColor,
             child: GridView.count(
+              padding: EdgeInsets.zero,
               shrinkWrap: true,
               primary: true,
               crossAxisCount: widget.columns,
@@ -608,6 +609,7 @@ class _EmojiPickerState extends State<EmojiPicker> {
       smileyPages.add(Container(
         color: widget.bgColor,
         child: GridView.count(
+          padding: EdgeInsets.zero,
           shrinkWrap: true,
           primary: true,
           crossAxisCount: widget.columns,
@@ -679,6 +681,7 @@ class _EmojiPickerState extends State<EmojiPicker> {
       animalPages.add(Container(
         color: widget.bgColor,
         child: GridView.count(
+          padding: EdgeInsets.zero,
           shrinkWrap: true,
           primary: true,
           crossAxisCount: widget.columns,
@@ -749,6 +752,7 @@ class _EmojiPickerState extends State<EmojiPicker> {
       foodPages.add(Container(
         color: widget.bgColor,
         child: GridView.count(
+          padding: EdgeInsets.zero,
           shrinkWrap: true,
           primary: true,
           crossAxisCount: widget.columns,
@@ -819,6 +823,7 @@ class _EmojiPickerState extends State<EmojiPicker> {
       travelPages.add(Container(
         color: widget.bgColor,
         child: GridView.count(
+          padding: EdgeInsets.zero,
           shrinkWrap: true,
           primary: true,
           crossAxisCount: widget.columns,
@@ -889,6 +894,7 @@ class _EmojiPickerState extends State<EmojiPicker> {
       activityPages.add(Container(
         color: widget.bgColor,
         child: GridView.count(
+          padding: EdgeInsets.zero,
           shrinkWrap: true,
           primary: true,
           crossAxisCount: widget.columns,
@@ -961,6 +967,7 @@ class _EmojiPickerState extends State<EmojiPicker> {
       objectPages.add(Container(
         color: widget.bgColor,
         child: GridView.count(
+          padding: EdgeInsets.zero,
           shrinkWrap: true,
           primary: true,
           crossAxisCount: widget.columns,
@@ -1031,6 +1038,7 @@ class _EmojiPickerState extends State<EmojiPicker> {
       symbolPages.add(Container(
         color: widget.bgColor,
         child: GridView.count(
+          padding: EdgeInsets.zero,
           shrinkWrap: true,
           primary: true,
           crossAxisCount: widget.columns,
@@ -1101,6 +1109,7 @@ class _EmojiPickerState extends State<EmojiPicker> {
       flagPages.add(Container(
         color: widget.bgColor,
         child: GridView.count(
+          padding: EdgeInsets.zero,
           shrinkWrap: true,
           primary: true,
           crossAxisCount: widget.columns,
@@ -1184,6 +1193,7 @@ class _EmojiPickerState extends State<EmojiPicker> {
       return Container(
           color: widget.bgColor,
           child: GridView.count(
+            padding: EdgeInsets.zero,
             shrinkWrap: true,
             primary: true,
             crossAxisCount: widget.columns,
